@@ -1,0 +1,16 @@
+Initial commit: Chess Overlay Android app structure
+
+- Complete Android project with floating overlay functionality
+- MainActivity with permission handling and service management
+- OverlayService for floating button and chess analysis
+- ChessAnalyzer for coordinating screen capture and analysis
+- ChessBoardDetector using OpenCV for board recognition
+- StockfishEngine integration for move analysis
+- Arabic UI support and comprehensive documentation
+- OpenCV module structure with basic classes
+- All necessary Android resources and configurations
+
+Link to Devin run: https://app.devin.ai/sessions/97b219bbee0a46f58c68cc8298690422
+Requested by: @Delackf
+
+Co-Authored-By: Delack X <khaledabdi2004@gmail.com>

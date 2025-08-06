@@ -1,2 +1,24 @@
-# Chess_killer
-An Android overlay app that runs on top of the Chess.com app and suggests the best move in real time using board detection and a chess engine. Designed to help users improve their play. For educational use only. May violate Chess.com fair play policies.
+# Chess Overlay App
+
+تطبيق أندرويد عائم يساعد في لعب الشطرنج على chess.com من خلال تحليل الشاشة واقتراح أفضل النقلات.
+
+## المكونات الرئيسية
+
+1. **طبقة عائمة (Overlay)** - زر صغير يظهر فوق تطبيق chess.com
+2. **تحليل الشاشة (Screen Analysis)** - استخدام OpenCV لتحليل رقعة الشطرنج
+3. **محرك تحليل النقلات (Stockfish)** - تحليل الوضع واقتراح أفضل نقلة
+4. **تلوين المربعات (Move Highlighting)** - إظهار النقلة المقترحة على الشاشة
+
+## البنية التقنية
+
+- Android Studio
+- OpenCV for Android
+- Stockfish Engine
+- Overlay Service
+- Screen Capture API
+
+## الاستخدام
+
+1. فتح تطبيق chess.com
+2. الضغط على الزر العائم "اقتراح نقلة"
+3. التطبيق يحلل الشاشة ويظهر النقلة المقترحة

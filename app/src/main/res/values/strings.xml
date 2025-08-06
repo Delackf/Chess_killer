@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chess Overlay</string>
+    <string name="overlay_button_text">اقتراح نقلة</string>
+    <string name="analyzing">جاري التحليل...</string>
+    <string name="permission_required">يتطلب إذن العرض فوق التطبيقات الأخرى</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="start_overlay">تشغيل الطبقة العائمة</string>
+    <string name="stop_overlay">إيقاف الطبقة العائمة</string>
+</resources>
